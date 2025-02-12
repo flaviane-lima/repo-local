@@ -5,6 +5,7 @@ Neste repositório estou executando comandos git para ter uma base sólida de ut
 
 
 # 📚 Documentação 
+
 - [documentação Git](https://git-scm.com/search/results?search=readme&language=pt_BR)
 - [documentação GitHub](https://docs.github.com/pt)
 
@@ -46,6 +47,39 @@ $ git status
 $ touch README.md
 
 ```
+
+#### Adicionar arquivos ao índice(stating area)
+
+```
+$ git add README.md
+
+```
+
+#### Salvar arquivos modificados ao índice
+
+```
+$ git commit -m"Descreva a alteração"
+
+```
+
+#### Verificar alteração feita
+
+```
+$ git log
+
+```
+
+#### Adicionar todos os arquivo ao índice
+
+```
+$ git add.
+
+```
+
+
+
+
+ 
 
 
 
