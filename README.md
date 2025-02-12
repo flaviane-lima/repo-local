@@ -14,21 +14,21 @@ Os comando são executados no terminal Git bash. Antes é necessário criar uma 
 #### Criar um repositório local
 
 ```
-$ mkdir repo-local
+ mkdir repo-local
 
 ``` 
 
 #### Entrando na pasta do repositório
 
 ```
-$ cd repo-local
+ cd repo-local
 
 ```
 
 #### Inicializar um repositório Git repositório local
 
 ```
-$ git init
+ git init
 
 ```
 
@@ -36,42 +36,42 @@ $ git init
 
 
 ```
-$ git status
+ git status
 
 ```
 
 #### Criar um arquivo readme
 
 ```
-$ touch README.md
+ touch README.md
 
 ```
 
 #### Adicionar arquivos ao índice(stating area)
 
 ```
-$ git add README.md
+ git add README.md
 
 ```
 
 #### Salvar arquivos modificados ao índice
 
 ```
-$ git commit -m"Descreva a alteração"
+ git commit -m"Descreva a alteração"
 
 ```
 
 #### Verificar alteração feita
 
 ```
-$ git log
+ git log
 
 ```
 
 #### Adicionar todos os arquivo ao índice
 
 ```
-$ git add.
+ git add.
 
 ```
 
@@ -85,14 +85,15 @@ git commit --amend -m "reescreva a mensagem"
 #### Desfazer um commit anterior
 
 ```
-$ git reset --soft <HEAD>
+ git reset --soft <HEAD>
 este HEAD aparece quendo é executado git log
 Copie e cole o HEAD do commit que deseja manter e execute o comando. Mas mantém os arquivos no indice para fazer commit
 
-$ git reset -- mixed <HEAD>
+ git reset -- mixed <HEAD>
 Isso desfaz o commit e remove os arquivos do índice, **mas mantém as alterações no diretório de trabalho**. Você precisará adicioná-las novamente com `git add` antes de criar um novo commit.  
 
-$ git reset --hard <HEAD>
+
+ git reset --hard <HEAD>
 Este comando desfaz o commit e **remove todas as alterações dos arquivos**, tanto do índice quanto da área de trabalho.  
 ⚠️ **Atenção**: Essa ação é irreversível! Use com cuidado.  
 
@@ -102,7 +103,7 @@ Este comando desfaz o commit e **remove todas as alterações dos arquivos**, ta
 #### Visualizar todas alterações do repositório
 
 ```
-$ git flog
+ git flog
 
 ```
 
@@ -111,16 +112,24 @@ $ git flog
 #### Vincular o repositório local para o remoto
 
 ```
-$ git remote add origin <URL>
+ git remote add origin <URL>
 
 ```
 
 #### Enviar alteração da branch main local para branch main do repositório remoto
 
 ```
-$ git push -u origin main
+ git push -u origin main
 
 ```
+
+#### Abaixando alterações do remoto para local
+
+```
+git pull
+
+```
+
 
 
 
