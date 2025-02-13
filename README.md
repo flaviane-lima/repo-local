@@ -116,7 +116,7 @@ Copie e cole o HEAD do commit que deseja manter e execute o comando. Mas mantém
 
 ```
 
-🔔 **OBS:** Este comandos até agora foram feitos locamente no desktop. Nos próximos pontos, será feitos comando para repositório remoto
+🚨 **OBS:** Estes comandos até agora foram feitos locamente no desktop. Nos próximos pontos, será feitos comando para repositório remoto
 
 #### Vincular o repositório local para o remoto
 
