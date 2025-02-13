@@ -69,12 +69,6 @@ Os comando são executados no terminal Git bash. Antes é necessário criar uma 
 
 ```
 
-#### Adicionar todos os arquivo ao índice
-
-```
- git add.
-
-```
 
 #### Alteração da mensagem do commit anterior
 
@@ -163,7 +157,7 @@ $ git log
 #### Adicionar todos os arquivo ao índice
 
 ```
-$ git add.
+$ git add .
 
 ```
 
