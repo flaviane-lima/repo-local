@@ -87,19 +87,27 @@ git commit --amend -m "reescreva a mensagem"
 
 ```
  git reset --soft <HEAD>
-este HEAD aparece quendo é executado git log
+
+ ```
+
+📝 **observação**: este HEAD aparece quendo é executado git log
 Copie e cole o HEAD do commit que deseja manter e execute o comando. Mas mantém os arquivos no indice para fazer commit
 
+```
  git reset -- mixed <HEAD>
-Isso desfaz o commit e remove os arquivos do índice, **mas mantém as alterações no diretório de trabalho**. Você precisará adicioná-las novamente com `git add` antes de criar um novo commit.  
 
+ ```
 
- git reset --hard <HEAD>
-Este comando desfaz o commit e **remove todas as alterações dos arquivos**, tanto do índice quanto da área de trabalho.  
-⚠️ **Atenção**: Essa ação é irreversível! Use com cuidado.  
-
+📝 **observação**: Isso desfaz o commit e remove os arquivos do índice, **mas mantém as alterações no diretório de trabalho**. Você precisará adicioná-las novamente com `git add` antes de criar um novo commit.  
 
 ```
+ git reset --hard <HEAD>
+
+ ```
+📝 **observação**: Este comando desfaz o commit e **remove todas as alterações dos arquivos**, tanto do índice quanto da área de trabalho.  
+ Essa ação é irreversível! Use com cuidado.  
+
+
 
 #### Visualizar todas alterações do repositório
 
